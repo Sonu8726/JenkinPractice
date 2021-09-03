@@ -17,7 +17,7 @@ public class SampleScripts {
 	@Test(priority = 0)
 	public void launchURL() {
 		driver.get("https://www.phptravels.net/flights");
-		System.out.println("1=browser launched");
+
 	}
 
 	@Test(priority = 1)
@@ -26,7 +26,7 @@ public class SampleScripts {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='autocomplete-result'][1]")));
 		driver.findElement(By.xpath("//div[@class='autocomplete-result'][1]")).click();
 		System.out.print("2=");
-		System.out.println("src place selected");
+
 	}
 
 	@Test(priority = 2)
@@ -35,7 +35,6 @@ public class SampleScripts {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='autocomplete-result'][1]")));
 		driver.findElement(By.xpath("//div[@class='autocomplete-result'][1]")).click();
 		System.out.print("3=");
-		System.out.println("dest place selesddcted");
 	}
 
 	@Test(priority = 3)
@@ -43,7 +42,6 @@ public class SampleScripts {
 
 		driver.findElement(By.cssSelector("#flights-search")).click();
 		System.out.print("4=");
-		System.out.println("Searching flight");
 	}
 
 	@BeforeClass
