@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-03T10:44:18 IST" name="Default suite" finished-at="2021-09-03T10:44:35 IST" duration-ms="17394">
+    <groups>
+    </groups>
+    <test started-at="2021-09-03T10:44:18 IST" name="Default test" finished-at="2021-09-03T10:44:35 IST" duration-ms="17394">
+      <class name="ZenQ.SampleScript.SampleScripts">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ZenQ.SampleScript.SampleScripts@a2431d0]" started-at="2021-09-03T10:44:18 IST" name="beforeTest" finished-at="2021-09-03T10:44:20 IST" duration-ms="2584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="launchURL()[pri:0, instance:ZenQ.SampleScript.SampleScripts@a2431d0]" started-at="2021-09-03T10:44:20 IST" name="launchURL" finished-at="2021-09-03T10:44:26 IST" duration-ms="5961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="selectSourcePlace()[pri:1, instance:ZenQ.SampleScript.SampleScripts@a2431d0]" started-at="2021-09-03T10:44:26 IST" name="selectSourcePlace" finished-at="2021-09-03T10:44:28 IST" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSourcePlace -->
+        <test-method signature="selectDestinationPlace()[pri:2, instance:ZenQ.SampleScript.SampleScripts@a2431d0]" started-at="2021-09-03T10:44:28 IST" name="selectDestinationPlace" finished-at="2021-09-03T10:44:28 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDestinationPlace -->
+        <test-method signature="clickOnSearchFlight()[pri:3, instance:ZenQ.SampleScript.SampleScripts@a2431d0]" started-at="2021-09-03T10:44:28 IST" name="clickOnSearchFlight" finished-at="2021-09-03T10:44:31 IST" duration-ms="2700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSearchFlight -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:ZenQ.SampleScript.SampleScripts@a2431d0]" started-at="2021-09-03T10:44:31 IST" name="afterTest" finished-at="2021-09-03T10:44:35 IST" duration-ms="4256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ZenQ.SampleScript.SampleScripts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
