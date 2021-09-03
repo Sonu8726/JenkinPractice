@@ -31,7 +31,7 @@ public class SampleScripts {
 
 	@Test(priority = 2)
 	public void selectDestinationPlace() {
-		driver.findElement(By.id("autocomplete2")).sendKeys("DEL");
+		driver.findElement(By.id("autocomplete2")).sendKeys("LKO");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='autocomplete-result'][1]")));
 		driver.findElement(By.xpath("//div[@class='autocomplete-result'][1]")).click();
 		System.out.print("3=");

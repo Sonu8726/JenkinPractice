@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-03T12:33:40 IST" name="Suite" finished-at="2021-09-03T12:33:55 IST" duration-ms="14509">
+  <suite started-at="2021-09-03T15:27:41 IST" name="Default suite" finished-at="2021-09-03T15:27:59 IST" duration-ms="18336">
     <groups>
     </groups>
-    <test started-at="2021-09-03T12:33:40 IST" name="Test" finished-at="2021-09-03T12:33:55 IST" duration-ms="14509">
+    <test started-at="2021-09-03T15:27:41 IST" name="Default test" finished-at="2021-09-03T15:27:59 IST" duration-ms="18336">
       <class name="ZenQ.SampleScript.SampleScripts">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ZenQ.SampleScript.SampleScripts@31e5415e]" started-at="2021-09-03T12:33:40 IST" name="beforeTest" finished-at="2021-09-03T12:33:43 IST" duration-ms="2470" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ZenQ.SampleScript.SampleScripts@a2431d0]" started-at="2021-09-03T15:27:41 IST" name="beforeTest" finished-at="2021-09-03T15:27:43 IST" duration-ms="2234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="launchURL()[pri:0, instance:ZenQ.SampleScript.SampleScripts@31e5415e]" started-at="2021-09-03T12:33:43 IST" name="launchURL" finished-at="2021-09-03T12:33:48 IST" duration-ms="5693" status="PASS">
+        <test-method signature="launchURL()[pri:0, instance:ZenQ.SampleScript.SampleScripts@a2431d0]" started-at="2021-09-03T15:27:43 IST" name="launchURL" finished-at="2021-09-03T15:27:49 IST" duration-ms="5682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="selectSourcePlace()[pri:1, instance:ZenQ.SampleScript.SampleScripts@31e5415e]" started-at="2021-09-03T12:33:48 IST" name="selectSourcePlace" finished-at="2021-09-03T12:33:50 IST" duration-ms="1461" status="PASS">
+        <test-method signature="selectSourcePlace()[pri:1, instance:ZenQ.SampleScript.SampleScripts@a2431d0]" started-at="2021-09-03T15:27:49 IST" name="selectSourcePlace" finished-at="2021-09-03T15:27:50 IST" duration-ms="804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSourcePlace -->
-        <test-method signature="selectDestinationPlace()[pri:2, instance:ZenQ.SampleScript.SampleScripts@31e5415e]" started-at="2021-09-03T12:33:50 IST" name="selectDestinationPlace" finished-at="2021-09-03T12:33:51 IST" duration-ms="648" status="PASS">
+        <test-method signature="selectDestinationPlace()[pri:2, instance:ZenQ.SampleScript.SampleScripts@a2431d0]" started-at="2021-09-03T15:27:50 IST" name="selectDestinationPlace" finished-at="2021-09-03T15:27:50 IST" duration-ms="545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDestinationPlace -->
-        <test-method signature="clickOnSearchFlight()[pri:3, instance:ZenQ.SampleScript.SampleScripts@31e5415e]" started-at="2021-09-03T12:33:51 IST" name="clickOnSearchFlight" finished-at="2021-09-03T12:33:54 IST" duration-ms="3843" status="PASS">
+        <test-method signature="clickOnSearchFlight()[pri:3, instance:ZenQ.SampleScript.SampleScripts@a2431d0]" started-at="2021-09-03T15:27:50 IST" name="clickOnSearchFlight" finished-at="2021-09-03T15:27:55 IST" duration-ms="4772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSearchFlight -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:ZenQ.SampleScript.SampleScripts@31e5415e]" started-at="2021-09-03T12:33:54 IST" name="afterTest" finished-at="2021-09-03T12:33:55 IST" duration-ms="326" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:ZenQ.SampleScript.SampleScripts@a2431d0]" started-at="2021-09-03T15:27:55 IST" name="afterTest" finished-at="2021-09-03T15:27:59 IST" duration-ms="4225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- ZenQ.SampleScript.SampleScripts -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
