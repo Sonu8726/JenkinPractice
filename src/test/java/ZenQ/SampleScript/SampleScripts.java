@@ -35,7 +35,7 @@ public class SampleScripts {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='autocomplete-result'][1]")));
 		driver.findElement(By.xpath("//div[@class='autocomplete-result'][1]")).click();
 		System.out.print("3=");
-		System.out.println("dest place selected");
+		System.out.println("dest place selesddcted");
 	}
 
 	@Test(priority = 3)
