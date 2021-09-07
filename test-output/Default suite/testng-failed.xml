@@ -5,9 +5,9 @@
     <classes>
       <class name="ZenQ.SampleScript.GridWithJenkins">
         <methods>
+          <include name="portCheckUp"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="appleSite"/>
+          <include name="sampleTest"/>
         </methods>
       </class> <!-- ZenQ.SampleScript.GridWithJenkins -->
     </classes>

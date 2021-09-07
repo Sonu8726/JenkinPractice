@@ -2,35 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-07T10:45:34 IST" name="Sampl" finished-at="2021-09-07T10:46:21 IST" duration-ms="47753">
+  <suite started-at="2021-09-07T12:52:11 IST" name="Sampl" finished-at="2021-09-07T12:52:27 IST" duration-ms="16028">
     <groups>
     </groups>
-    <test started-at="2021-09-07T10:45:34 IST" name="Firefox Test" finished-at="2021-09-07T10:45:58 IST" duration-ms="24374">
+    <test started-at="2021-09-07T12:52:11 IST" name="Chrome Test" finished-at="2021-09-07T12:52:24 IST" duration-ms="13500">
       <class name="ZenQ.SampleScript.GridWithJenkins">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ZenQ.SampleScript.GridWithJenkins@67c33749]" started-at="2021-09-07T10:45:34 IST" name="setUp" finished-at="2021-09-07T10:45:44 IST" duration-ms="10199" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5566]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="appleSite()[pri:0, instance:ZenQ.SampleScript.GridWithJenkins@67c33749]" started-at="2021-09-07T10:45:44 IST" name="appleSite" finished-at="2021-09-07T10:45:57 IST" duration-ms="13171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- appleSite -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ZenQ.SampleScript.GridWithJenkins@67c33749]" started-at="2021-09-07T10:45:57 IST" name="tearDown" finished-at="2021-09-07T10:45:58 IST" duration-ms="930" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- ZenQ.SampleScript.GridWithJenkins -->
-    </test> <!-- Firefox Test -->
-    <test started-at="2021-09-07T10:45:34 IST" name="Chrome Test" finished-at="2021-09-07T10:46:21 IST" duration-ms="47753">
-      <class name="ZenQ.SampleScript.GridWithJenkins">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ZenQ.SampleScript.GridWithJenkins@73ee04c8]" started-at="2021-09-07T10:45:34 IST" name="setUp" finished-at="2021-09-07T10:46:08 IST" duration-ms="34364" status="PASS">
+        <test-method is-config="true" signature="portCheckUp(java.lang.String)[pri:0, instance:ZenQ.SampleScript.GridWithJenkins@73ee04c8]" started-at="2021-09-07T12:52:11 IST" name="portCheckUp" finished-at="2021-09-07T12:52:16 IST" duration-ms="4925" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,16 +17,39 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="appleSite()[pri:0, instance:ZenQ.SampleScript.GridWithJenkins@73ee04c8]" started-at="2021-09-07T10:46:08 IST" name="appleSite" finished-at="2021-09-07T10:46:21 IST" duration-ms="13242" status="PASS">
+        </test-method> <!-- portCheckUp -->
+        <test-method signature="sampleTest()[pri:0, instance:ZenQ.SampleScript.GridWithJenkins@73ee04c8]" started-at="2021-09-07T12:52:16 IST" name="sampleTest" finished-at="2021-09-07T12:52:24 IST" duration-ms="8452" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- appleSite -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ZenQ.SampleScript.GridWithJenkins@73ee04c8]" started-at="2021-09-07T10:46:21 IST" name="tearDown" finished-at="2021-09-07T10:46:21 IST" duration-ms="86" status="PASS">
+        </test-method> <!-- sampleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ZenQ.SampleScript.GridWithJenkins@73ee04c8]" started-at="2021-09-07T12:52:24 IST" name="tearDown" finished-at="2021-09-07T12:52:24 IST" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- ZenQ.SampleScript.GridWithJenkins -->
     </test> <!-- Chrome Test -->
+    <test started-at="2021-09-07T12:52:11 IST" name="Firefox Test" finished-at="2021-09-07T12:52:27 IST" duration-ms="16028">
+      <class name="ZenQ.SampleScript.GridWithJenkins">
+        <test-method is-config="true" signature="portCheckUp(java.lang.String)[pri:0, instance:ZenQ.SampleScript.GridWithJenkins@67c33749]" started-at="2021-09-07T12:52:11 IST" name="portCheckUp" finished-at="2021-09-07T12:52:20 IST" duration-ms="9394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5566]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portCheckUp -->
+        <test-method signature="sampleTest()[pri:0, instance:ZenQ.SampleScript.GridWithJenkins@67c33749]" started-at="2021-09-07T12:52:20 IST" name="sampleTest" finished-at="2021-09-07T12:52:26 IST" duration-ms="5413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ZenQ.SampleScript.GridWithJenkins@67c33749]" started-at="2021-09-07T12:52:26 IST" name="tearDown" finished-at="2021-09-07T12:52:27 IST" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ZenQ.SampleScript.GridWithJenkins -->
+    </test> <!-- Firefox Test -->
   </suite> <!-- Sampl -->
 </testng-results>

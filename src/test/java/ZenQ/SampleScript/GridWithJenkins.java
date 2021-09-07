@@ -47,6 +47,7 @@ public class GridWithJenkins {
 	public void sampleTest() throws InterruptedException {
 		driver.findElement(By.name("q")).sendKeys("Abhishek Srivastava");
 		driver.findElement(By.name("q")).submit();
+		System.out.println(driver.getTitle());
 		Thread.sleep(5000);
 	}
 
