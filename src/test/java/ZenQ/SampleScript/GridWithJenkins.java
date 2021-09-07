@@ -19,7 +19,7 @@ public class GridWithJenkins {
 
 	@Parameters({ "Port" })
 	@BeforeMethod()
-	public void setUp(String Port) throws MalformedURLException {
+	public void portCheckUp(String Port) throws MalformedURLException {
 		if (Port.equalsIgnoreCase("4546")) {
 			nodeURL = "http://192.168.43.126:4444/wd/hub";
 			System.out.println("Chrome Browser Initiated");
@@ -44,16 +44,10 @@ public class GridWithJenkins {
 	}
 
 	@Test
-	public void appleSite() throws InterruptedException {
-		try {
-
-			driver.findElement(By.name("q")).sendKeys("Abhishek Srivastava");
-			driver.findElement(By.name("q")).submit();
-		}
-
-		catch (Exception e) {
-			System.out.println(e.getMessage());
-		}
+	public void sampleTest() throws InterruptedException {
+		driver.findElement(By.name("q")).sendKeys("Abhishek Srivastava");
+		driver.findElement(By.name("q")).submit();
+		Thread.sleep(5000);
 	}
 
 	@AfterMethod()
